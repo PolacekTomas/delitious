@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "686492653780",
+    "firebase_url": "https://delitious-7cf1f.firebaseio.com",
+    "project_id": "delitious-7cf1f",
+    "storage_bucket": "delitious-7cf1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686492653780:android:4127d470b809c6d4",
+        "android_client_info": {
+          "package_name": "com.tomaspolacek.delitious"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686492653780-55n3hf6n6lqsf8j0jl2n0hp4v06i54st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomaspolacek.delitious",
+            "certificate_hash": "b1f3cb579597d6ae1f8149a5cb39cad59ea198f0"
+          }
+        },
+        {
+          "client_id": "686492653780-sqrpne662dk1edoft5pd9ghk1svos8l4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "686492653780-sqrpne662dk1edoft5pd9ghk1svos8l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC66jFL9dP9GIenhx9Pi9A90HkaOj_Zp6c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686492653780-sqrpne662dk1edoft5pd9ghk1svos8l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
