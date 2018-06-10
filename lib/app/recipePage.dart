@@ -7,8 +7,6 @@ class RecipePage extends StatelessWidget {
   RecipePage({this.recipe});
 
   final Recipe recipe;
-  //TODO: recipe.ingredients
-  final _ingred = generateWordPairs().take(10).toList();
 
   @override
   Widget build(BuildContext context) {
@@ -45,13 +43,13 @@ class RecipePage extends StatelessWidget {
     );
 
     //TODO: Change WordPair to String after DB connected
-    Widget _buildIngredientTile(WordPair wp) {
+    Widget _buildIngredientTile(String ingredient) {
       return new Container(
         margin: const EdgeInsets.all(1.0),
         height: 18.0,
         child: new ListTile(
           title: new Text(
-            wp.asString,
+            ingredient,
             style: new TextStyle(fontSize: 12.0),
           ),
         ),
@@ -64,7 +62,7 @@ class RecipePage extends StatelessWidget {
         title: new Text("Ingredients"),
         backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
         initiallyExpanded: true,
-        children: _ingred.map(_buildIngredientTile).toList(),
+        children: recipe.ingredients.map(_buildIngredientTile).toList(),
       ),
     );
 
